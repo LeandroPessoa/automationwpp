@@ -30,6 +30,18 @@ touch /tmp/myscript.running
 		  curl http://localhost:5000/desliga || rm -f /tmp/myscript.running
 		  printf "desligado\n"
 		fi
+
+		if [[ $STR == *"Echoing desligapc to 553192624941"* ]]; then
+                  curl http://localhost:5000/pcdesliga || rm -f /tmp/myscript.running
+                  printf "desligado\n"
+                fi
+
+		if [[ $STR == *"Echoing ligapc to 553192624941"* ]]; then
+                  curl http://localhost:5000/pcliga || rm -f /tmp/myscript.running
+                  printf "desligado\n"
+                fi
+
+
 	done
 
 

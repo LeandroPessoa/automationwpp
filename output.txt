@@ -1,4 +1,4 @@
-Script started on Qui 28 Set 2017 15:59:01 -03
+Script started on Dom 01 Out 2017 13:38:02 -03
 yowsup-cli  v2.0.15
 yowsup      v2.5.2
 
@@ -13,4 +13,3 @@ development please consider donating:
 http://openwhatsapp.org/yowsup/donate
 
 
-Echoing dooorimeee to 553192624941
